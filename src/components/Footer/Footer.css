@@ -1,0 +1,36 @@
+.footer {
+  background-color: #c8c10d;
+  padding: 20px;
+}
+
+.footer-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+
+.footer-item {
+  width: 100%;
+  padding: 10px;
+  margin: 0 20px 0 20px;
+  text-align: center;
+}
+
+.footer-item img {
+  height: 50px;
+}
+.footer-item a {
+  color: white;
+  text-decoration: none;
+}
+
+@media all and (max-width: 480px) {
+  .footer-menu {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
